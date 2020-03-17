@@ -19,4 +19,6 @@ eureka:
 server:
   port: 8764
 env: 
-        test
+    test
+leavel:
+    release
