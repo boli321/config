@@ -1,6 +1,10 @@
 spring:
   application:
     name: order
-  
+  rabbitmq:
+    addresses: 172.16.203.171
+    username: guest
+    password: guest
+    connection-timeout: 15000
 server:
   port: 8764
